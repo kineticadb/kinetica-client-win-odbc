@@ -6,6 +6,4 @@ The important fields for Kinetica ODBC driver are mentioned below.
 
 Username and Password values are optional and can be left blank if not required by your server.
 
-Server IP - This is the Kinetica ODBC server IP or machine name. Ask your Kinetica administrator about the server IP in your enterprise. Example - 172.31.21.241
-
-Server Port - This is the Kinetica ODBC server port. Ask your Kinetica administrator about the server port in your enterprise. Example (and the default) - 9292
+URL - This is the Kinetica GPUdb REST URL. Ask your Kinetica administrator about the server port in your enterprise. Example (and the default) - http://127.0.0.1:9191
