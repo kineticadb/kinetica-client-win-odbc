@@ -9,3 +9,5 @@ Username and Password values are optional and can be left blank if not required 
 Server IP - This is the Kinetica ODBC server IP or machine name. Ask your Kinetica administrator about the server IP in your enterprise. Example - 172.31.21.241
 
 Server Port - This is the Kinetica ODBC server port. Ask your Kinetica administrator about the server port in your enterprise. Example (and the default) - 9292
+
+After installing, if you get error 126 when trying to add a System DSN, you may need to download and install the "Visual C++ Redistributable Packages for Visual Studio 2013" from: http://www.microsoft.com/en-us/download/details.aspx?id=40784
