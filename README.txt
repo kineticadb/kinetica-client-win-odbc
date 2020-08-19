@@ -1,4 +1,4 @@
-The 7.0 ODBC Driver will not work with GPUdb Servers lower than 7.0.  Or vice versa -- the previous ODBC Drivers will not connect to a GPUdb Server version 7.0 or later.
+Use the latest 7.1 ODBC driver to connect to any Kinetica server that is 7.0 or newer. Drivers from 6.2 and earlier are not able to talk to 7.0 Kinetica servers (or later).
 
 KineticaODBCClient-64.msi and KineticaODBCClient-32.msi are the ODBC client installation packages.  You should install the one that matches the client you intend to use on Windows.  If your machine is 64-bit, and you want to use both 32-bit and 64-bit clients, you should install both.
 
