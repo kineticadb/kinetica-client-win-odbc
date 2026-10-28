@@ -4,22 +4,22 @@
 <h5 align="center" style="margin:0px">
 	<a href="https://www.kinetica.com/">Website</a>
 	|
-	<a href="https://docs.kinetica.com/7.2/">Docs</a>
-	|
-	<a href="https://docs.kinetica.com/7.2/connectors/sql_guide/">ODBC Docs</a>
+	<a href="https://docs.kinetica.com/">Docs</a>
 	|
 	<a href="https://join.slack.com/t/kinetica-community/shared_invite/zt-1bt9x3mvr-uMKrXlSDXfy3oU~sKi84qg">Community Slack</a>   
 </h5>
 
 
-# Kinetica JDBC Driver
+# Kinetica ODBC Driver
+
+> **Deprecated:** The Kinetica ODBC Driver is deprecated.  Use the
+> [PostgreSQL Wire Protocol](https://docs.kinetica.com/content/connectors/psql_wire_protocol)
+> interface instead:  point any PostgreSQL-compatible client or driver at the
+> Kinetica head node on port `5432`.
 
 -  [Overview](#overview)
 -  [Install](#install)
 -  [Configure](#configure)
--  [Connect](#connect)
--  [Examples](#examples)
--  [Documentation](#documentation)
 -  [Support](#support)
 -  [Contact Us](#contact-us)
  
@@ -108,9 +108,6 @@ This file is where you set:
 
 ### Common Connection Parameters
 
-For the full parameter set, see
-[ODBC/JDBC Connection Guide](https://docs.kinetica.com/7.2/connectors/sql_guide/#odbc-jdbc-configuration).
-
 | Parameter      | Description
 | :---           | :---
 | `URL`          | Kinetica connection URL; used in lieu of the default host/port configuration for SSL or failover connections
@@ -126,11 +123,6 @@ For the full parameter set, see
 | :---                   | :---
 | `BypassSslCertCheck`   | Allow (`1`) or disallow (`0`) the Kinetica certificate host name and server host name to be different
 | `SslCACertPath`        | Path to client's trust store, used to validate the certificate from the Kinetica server
-
-
-## Documentation
-- [Full Documentation](https://docs.kinetica.com/7.2/)
-- [ODBC/JDBC Connection Guide](https://docs.kinetica.com/7.2/connectors/sql_guide/)
 
 
 ## Support
